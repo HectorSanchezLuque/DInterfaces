@@ -185,9 +185,9 @@ const App = () => {
           <Text style={styles.sectionDescription}>Button(amb text i icona)</Text>
 
           <Button icon="alien" mode="contained" onPress={() => console.log('Pressed')}>Alien</Button>
-          <Button icon="alien" mode="contained" color='purple' textColor='black' onPress={() => console.log('Pressed')}>Alien</Button>
-          <Button icon="alien" mode="text" textColor='purple' onPress={() => console.log('Pressed')}>Alien</Button>
-          <Button icon="alien" mode="elevated" textColor='purple' onPress={() => console.log('Pressed')}>Alien</Button>
+          <Button icon="alien" mode="contained" color='purple' textColor='black' onPress={() => console.log('Pressed')}>ALIEN</Button>
+          <Button icon="alien" mode="text" textColor='purple' onPress={() => console.log('Pressed')}>ALIEN</Button>
+          <Button icon="alien" mode="elevated" textColor='purple' onPress={() => console.log('Pressed')}>ALIEN</Button>
 
           <Text style={styles.sectionDescription}>Switch Necessites un descans?</Text>
 
